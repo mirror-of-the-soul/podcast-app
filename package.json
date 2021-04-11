@@ -1,0 +1,25 @@
+{
+  "name": "podcust_app",
+  "version": "1.0.0",
+  "description": "EAG Podcast App",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "JS",
+    "javascript"
+  ],
+  "author": "Evgeny <grigar19@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "css-loader": "^5.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
